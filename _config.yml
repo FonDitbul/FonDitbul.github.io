@@ -5,7 +5,7 @@ keywords: null
 author: 정권기
 language: ko
 timezone: "Asia/Seoul"
-url: http://example.com
+url: https://fonditbul.github.io/
 permalink: ':year/:month/:day/:title/'
 permalink_defaults: null
 pretty_urls:
@@ -63,5 +63,5 @@ theme: icarus
 deploy:
   type: git
   repo: https://github.com/FonDitbul/FonDitbul.github.io.git
-  branch: main
+  branch: master
 
