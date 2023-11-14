@@ -43,8 +43,5 @@ jobs:
       - name: HEXO_GENERATE
         run: hexo generate
 
-      - name: WORKBOX_BUILD
-        run: workbox injectManifest
-
       - name: HEXO_DEPLOY
         run: hexo deploy
