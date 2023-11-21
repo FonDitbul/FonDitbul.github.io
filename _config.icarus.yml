@@ -162,10 +162,10 @@ search:
     index_pages: true
 # Comment plugin configurations
 # https://ppoffice.github.io/hexo-theme-icarus/categories/Plugins/Comment/
-comment:
-    type: disqus
+#comment:
+#    type: disqus
     # Disqus shortname
-    shortname: ''
+#    shortname: ''
 # Donate plugin configurations
 # https://ppoffice.github.io/hexo-theme-icarus/categories/Plugins/Donation/
 #donates:
@@ -221,34 +221,41 @@ sidebar:
 # Sidebar widget configurations
 # http://ppoffice.github.io/hexo-theme-icarus/categories/Widgets/
 widgets:
+    - # Where should the widget be placed, left sidebar or right sidebar
+        position: right
+        type: toc
+        # Whether to show the index of each heading
+        index: true
+        # Whether to collapse sub-headings when they are out-of-view
+        collapsed: true
+        # Maximum level of headings to show (1-6)
+        depth: 3
     # Profile widget configurations
-    -
-        # Where should the widget be placed, left sidebar or right sidebar
-        position: left
-        type: profile
-        # Author name
-        author: 정권기
-        # Author title
-        author_title: With Node
-        # Author's current location
-        location: Seoul
-        # URL or path to the avatar image
-        avatar: https://avatars.githubusercontent.com/u/49264688?v=4
-        # Whether show the rounded avatar image
-        avatar_rounded: false
-        # Email address for the Gravatar
-        # gravatar:
-        # URL or path for the follow button
-        # follow_link: https://github.com/ppoffice
-        # Links to be shown on the bottom of the profile widget
-        social_links:
-            Github:
-                icon: fab fa-github
-                url: https://github.com/FonDitbul
-            # Facebook:
-                # icon: fab fa-facebook
-                # url: https://facebook.com
-            # Twitter:
+#    -
+#        # Where should the widget be placed, left sidebar or right sidebar
+#        position: right
+#        type: profile
+#        # Author name
+#        author: 정권기
+#        # Author title
+#        author_title: With Node
+#        # Author's current location
+#        location: Seoul
+#        # URL or path to the avatar image
+#        avatar: https://avatars.githubusercontent.com/u/49264688?v=4
+#        # Whether show the rounded avatar image
+#        avatar_rounded: false
+#        # Email address for the Gravatar
+#        # gravatar:
+#        # URL or path for the follow button
+#        # follow_link: https://github.com/ppoffice
+#        # Links to be shown on the bottom of the profile widget
+#        social_links:
+#            Blog: https://fonditbul.github.io/
+#            Github:
+#                icon: fab fa-github
+#                url: https://github.com/FonDitbul
+#             Twitter:
                 # icon: fab fa-twitter
                 # url: https://twitter.com
             # Dribbble:
@@ -258,17 +265,7 @@ widgets:
                 # icon: fas fa-rss
                 # url: /
     # Table of contents widget configurations
-#    -
-#        # Where should the widget be placed, left sidebar or right sidebar
-#        position: left
-#        type: toc
-#        # Whether to show the index of each heading
-#        index: true
-#        # Whether to collapse sub-headings when they are out-of-view
-#        collapsed: true
-#        # Maximum level of headings to show (1-6)
-#        depth: 3
-#    # Recommendation links widget configurations
+    # Recommendation links widget configurations
 #    -
 #        # Where should the widget be placed, left sidebar or right sidebar
 #        position: left
@@ -280,12 +277,12 @@ widgets:
     # Categories widget configurations
     -
         # Where should the widget be placed, left sidebar or right sidebar
-        position: left
+        position: right
         type: categories
     # Recent posts widget configurations
     -
         # Where should the widget be placed, left sidebar or right sidebar
-        position: left
+        position: right
         type: recent_posts
     # Archives widget configurations
 #    -
@@ -293,16 +290,16 @@ widgets:
 #        position: left
 #        type: archives
     # Tags widget configurations
-    -
-        # Where should the widget be placed, left sidebar or right sidebar
-        position: left
-        type: tags
-        # How to order tags. For example 'name' to order by name in ascending order, and '-length' to order by number of posts in each tags in descending order
-        order_by: name
-        # Amount of tags to show. Will show all if not set.
-        amount: 
-        # Whether to show tags count, i.e. number of posts in the tag.
-        show_count: true
+#    -
+#        # Where should the widget be placed, left sidebar or right sidebar
+#        position: right
+#        type: tags
+#        # How to order tags. For example 'name' to order by name in ascending order, and '-length' to order by number of posts in each tags in descending order
+#        order_by: name
+#        # Amount of tags to show. Will show all if not set.
+#        amount:
+#        # Whether to show tags count, i.e. number of posts in the tag.
+#        show_count: true
     # Google FeedBurner email subscription widget configurations
 #    -
 #        # Where should the widget be placed, left sidebar or right sidebar
