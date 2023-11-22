@@ -12,10 +12,11 @@ widgets:
     avatar: https://avatars.githubusercontent.com/u/49264688?v=4
     avatar_rounded: false
     social_links:
-        Blog: https://fond[index.md](index.md)itbul.github.io/
+        Blog: https://fonditbul.github.io/
         Github:
             icon: fab fa-github
             url: https://github.com/FonDitbul
+toc: true
 ---
 
 # 정권기
