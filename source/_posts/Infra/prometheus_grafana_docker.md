@@ -7,7 +7,8 @@ tags:
   - prometheus
   - docker
 categories:
-  - 인프라
+  - Infra
+  - Monitoring
 toc: true
 ---
 
