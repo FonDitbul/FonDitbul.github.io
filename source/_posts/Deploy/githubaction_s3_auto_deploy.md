@@ -27,7 +27,7 @@ categories:
 {% asset_img IAM_access_key.PNG %}
 * 여기서 access key와 private key 를 복사해서 하단의 github 에 붙여넣기 합니다.
 
-
+***
 # Github 설정하기
 * Github Repository 에서 Setting 을 다음과 같이 설정하기
 {% asset_img github_settings.PNG %}
@@ -35,7 +35,7 @@ categories:
 * Repository secrets 에서 ```New repository secret```를 클릭 
 * IAM key 에서 받아온 값들을 그림과 같이 저장합니다.
 
-
+***
 # S3 버킷 정적 호스팅 설정하기
 ## 1. s3 bucket 만들기
 * aws 콘솔에서 s3 검색
@@ -73,7 +73,7 @@ categories:
 ```
 * ```github-action.test``` 은 설정한 s3 버킷 이름을 작성하여야 합니다.
 
-
+*** 
 # Github Actions yml 생성하기
 * 호스팅 하고자 하는 Github Repository 에서 다음과 같은 파일을 생성합니다.
 * 파일 이름은 변경해도 상관없으나 경로는 유지해야합니다.
@@ -129,6 +129,7 @@ jobs:
 
 {% asset_img github_action_complete.PNG %}
 
+*** 
 ### 끝
 * s3에 파일 업로드 확인 
 * 마지막 정적 웹사이트 호스팅 하단에 링크 클릭하면 제대로 출력되는지 확인!
